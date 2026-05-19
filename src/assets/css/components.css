@@ -1,0 +1,145 @@
+/* ========================================================
+   GLOBAL COMPONENTS (SOFT UI)
+   ======================================================== */
+
+/* ── Botones (Buttons) ── */
+.btn-pastel-primary {
+  background: linear-gradient(135deg, var(--c-primary), var(--c-primary-hover));
+  color: var(--c-primary-dark);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-glow-primary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: inherit;
+}
+.btn-pastel-primary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(167, 243, 208, 0.8);
+}
+.btn-pastel-primary:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+.btn-pastel-secondary {
+  background: linear-gradient(135deg, var(--c-secondary), var(--c-secondary-hover));
+  color: var(--c-secondary-dark);
+  border: none;
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 700;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: var(--shadow-glow-secondary);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-family: inherit;
+}
+.btn-pastel-secondary:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 12px 24px rgba(233, 213, 255, 0.8);
+}
+
+.btn-pastel-ghost {
+  background: transparent;
+  color: var(--c-text-muted);
+  border: 1px solid var(--c-border);
+  padding: 12px 24px;
+  border-radius: var(--radius-md);
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: inherit;
+}
+.btn-pastel-ghost:hover:not(:disabled) {
+  background: var(--c-bg-surface-soft);
+  color: var(--c-text-main);
+  border-color: var(--c-border-hover);
+}
+
+/* ── Tarjetas (Cards) ── */
+.card-pastel {
+  background: var(--c-bg-surface);
+  border-radius: var(--radius-lg);
+  border: 1px solid rgba(255, 255, 255, 0.8); /* Bordes casi invisibles para efecto glass */
+  box-shadow: var(--shadow-md);
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.card-pastel:hover {
+  box-shadow: var(--shadow-lg);
+  transform: translateY(-3px);
+}
+
+/* ── Formularios (Inputs) ── */
+.input-pastel {
+  width: 100%;
+  padding: 14px 16px;
+  border-radius: var(--radius-md);
+  border: 2px solid var(--c-bg-surface-soft);
+  background: var(--c-bg-surface-soft);
+  color: var(--c-text-main);
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  font-family: inherit;
+  outline: none;
+}
+.input-pastel:focus {
+  background: var(--c-bg-surface);
+  border-color: var(--c-primary-hover);
+  box-shadow: 0 0 0 4px var(--c-primary-light);
+}
+.input-pastel::placeholder {
+  color: var(--c-text-light);
+}
+
+.label-pastel {
+  display: block;
+  font-size: 11px;
+  font-weight: 800;
+  color: var(--c-text-muted);
+  margin-bottom: 8px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+/* ── Badges (Etiquetas) ── */
+.badge-pastel-green {
+  background: var(--c-success-bg);
+  color: var(--c-success-text);
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.badge-pastel-blue {
+  background: var(--c-accent-blue);
+  color: #0369a1; /* Azul oscuro legible */
+  padding: 4px 12px;
+  border-radius: var(--radius-pill);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+/* ── Utilitarios ── */
+.text-pastel-primary { color: var(--c-primary-dark); }
+.text-pastel-muted { color: var(--c-text-muted); }
+.bg-pastel-main { background: var(--c-bg-app); }

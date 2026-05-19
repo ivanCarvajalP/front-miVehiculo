@@ -1,0 +1,53 @@
+:root {
+  /* ========================================================
+     PALETA PERSONALIZADA (Yale Blue & Ocean Tones)
+     Basada en tu selección de Coolors
+     ======================================================== */
+  
+  /* Fondos (Backgrounds - Limpios para máxima legibilidad) */
+  --c-bg-app: #f4f7f6; /* Blanco roto con un toque mínimo de azul marino */
+  --c-bg-surface: #ffffff; /* Blanco puro para tarjetas */
+  --c-bg-surface-soft: #eef2f1; /* Gris sutil para inputs */
+  
+  /* Tonos Principales (Yale Blue - Elegancia y Contraste) */
+  --c-primary-light: #CBDF90; /* Mindaro (verde/amarillo suave) para detalles/hover */
+  --c-primary: #1B4079; /* Yale Blue (Principal, botones fuertes) */
+  --c-primary-hover: #4D7C8A; /* Air Force Blue para interacción */
+  --c-primary-dark: #122c54; /* Tono aún más profundo para contraste absoluto */
+  
+  /* Tonos Secundarios (Tonos tierra/marinos) */
+  --c-secondary-light: #e4efe2; 
+  --c-secondary: #8FAD88; /* Cambridge Blue (verde hoja) */
+  --c-secondary-hover: #7F9C96; /* Cambridge Blue más oscuro */
+  --c-secondary-dark: #4D7C8A; 
+  
+  /* Estados (Integrados con tu paleta) */
+  --c-success-bg: #CBDF90; /* Mindaro */
+  --c-success-text: #1B4079; /* Yale Blue */
+  --c-error-bg: #fee2e2;
+  --c-error-text: #991b1b;
+  --c-warning-bg: #fef3c7;
+  --c-warning-text: #92400e;
+  
+  /* Texto (Typography - Usando el Yale Blue para un branding perfecto) */
+  --c-text-main: #1B4079; /* Textos principales en Yale Blue (Alta legibilidad) */
+  --c-text-muted: #4D7C8A; /* Air Force Blue para subtítulos */
+  --c-text-light: #7F9C96; /* Cambridge Blue para placeholders */
+  
+  /* Bordes (Borders) */
+  --c-border: #7F9C96; /* Cambridge Blue con opacidad baja */
+  --c-border-hover: #4D7C8A;
+  
+  /* Sombras Premium (Basadas en los tonos azules) */
+  --shadow-sm: 0 1px 2px rgba(27, 64, 121, 0.05);
+  --shadow-md: 0 4px 10px rgba(27, 64, 121, 0.08);
+  --shadow-lg: 0 15px 30px rgba(27, 64, 121, 0.12);
+  --shadow-glow-primary: 0 6px 16px rgba(27, 64, 121, 0.25);
+  --shadow-glow-secondary: 0 6px 16px rgba(143, 173, 136, 0.3);
+  
+  /* Radios (Border Radius - Suaves y amigables) */
+  --radius-sm: 8px;
+  --radius-md: 14px;
+  --radius-lg: 20px;
+  --radius-pill: 9999px;
+}
